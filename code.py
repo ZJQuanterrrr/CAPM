@@ -22,7 +22,7 @@ import os
 
 from fredapi import Fred
 
-fred = Fred(api_key='d56b593ad51b80ca0ca6b4bad48afe78')
+fred = Fred(api_key='')
 
 # Get S&P 500 monthly adjusted returns data
 data1 = fred.get_series('SP500')
